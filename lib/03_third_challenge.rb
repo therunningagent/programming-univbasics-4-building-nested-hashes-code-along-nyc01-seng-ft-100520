@@ -18,13 +18,14 @@ def third_challenge
         status: "alive"
       },
       :hero_friends => [
-        Benvolio: 
+        { name: "Benvolio", 
           age: "17",
-          attitude: "worried"
+          attitude: "worried"}
           
-        Mercutio: 
+        { name: "Mercutio",
           age: "18",
-          attitude: "hot-headed"]
+          attitude: "hot-headed"}
+          ]
    }, 
    :capulet => {
       :patriarch => {
@@ -44,13 +45,13 @@ def third_challenge
         status: "alive"
       },
       :heroine_friends => [
-        Steven: 
+        { name: "Steven", 
           age: "30",
-          attitude: "confused"
+          attitude: "confused" }
           
-        Nurse:
+        { name: "Nurse",
           age: "44",
-          attitude: "worried"]
+          attitude: "worried" }]
    }
   }
 
